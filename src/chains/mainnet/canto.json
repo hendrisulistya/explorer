@@ -5,7 +5,7 @@
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
   "coin_type": "60",
-  "min_tx_fee": "8000000000000000000",
+  "min_tx_fee": "800",
   "addr_prefix": "canto",
   "logo": "/logos/canto.png",
   "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
