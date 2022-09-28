@@ -1,13 +1,14 @@
 {
-  "chain_name": "canto",
+  "chain_name": "canto kewer",
   "api": ["https://canto-api.polkachu.com","https://api.canto.nodestake.top"],
   "rpc": ["https://canto-rpc.polkachu.com:443","https://rpc.canto.nodestake.top"],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
   "coin_type": "60",
-  "min_tx_fee": "800",
+  "min_tx_fee": "8000000000000000000",
   "addr_prefix": "canto",
   "logo": "/logos/canto.png",
+  "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
   "assets": [
     {
       "base": "acanto",
