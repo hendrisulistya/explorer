@@ -504,9 +504,9 @@ export default {
           coinGeckoId: chain.assets[0].coingecko_id || 'unknown',
         },
         gasPriceStep: {
-          low: 800000000000,
-          average: 2000000000000,
-          high: 6000000000000,
+          low: 600000000000,
+          average: 1500000000000,
+          high: 3000000000000,
         },
         features: chain.keplr_features || [],
       }, null, '\t')
